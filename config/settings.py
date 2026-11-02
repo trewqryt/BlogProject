@@ -127,3 +127,4 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+TEST_RUNNER = "crud.report.WordReportTestRunner"
